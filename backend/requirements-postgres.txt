@@ -1,0 +1,4 @@
+# Optional: PostgreSQL driver. Install with:  pip install -r requirements-postgres.txt
+# then set DATABASE_URL=postgres://USER:PASSWORD@HOST:5432/DBNAME in .env
+-r requirements.txt
+psycopg[binary]>=3.2,<4
